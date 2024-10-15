@@ -40,7 +40,7 @@ const Projects = () => {
     {
       title: 'Hospital Appointment Booking System',
       description: 'A full-stack web application for booking hospital appointments using React and Django.',
-      link: 'https://hospital-booking-app.com',
+      link: 'https://victorkipkurui.github.io/Filianta/index.html',
       tools: 'React, Django, Tailwind CSS',
     },
     {

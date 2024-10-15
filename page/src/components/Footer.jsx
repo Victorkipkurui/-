@@ -11,7 +11,7 @@ const navItems = [
 ]
 const Footer = () => {
   return (
-    <div>
+    <div className=" bg-gray-100 p-6">
       <div className="px-28 flex gap-40">
         <div className="my-3">
         <a href="/" className='text-xl font-bold text-blue-800 py-3'>Victor K</a>
