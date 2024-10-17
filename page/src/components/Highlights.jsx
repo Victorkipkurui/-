@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 const Highlights = () => {
   const images = [
+    '/src/assets/images/dashboard.png',
     '/src/assets/images/Revenue data 2011.png',
     '/src/assets/images/Screenshot (17).png',
     '/src/assets/images/Screenshot (23).png',
