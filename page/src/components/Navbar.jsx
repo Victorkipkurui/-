@@ -33,15 +33,15 @@ const Navbar = () => {
       </ul>
       <div className='md:hidden'>
         <button onClick={toggleMenu} className='cursor-pointer'>
-          { isMenuon ? <FaXmark className='w-5 h-5'></FaXmark> :<FaBars className='w-5 h-5'></FaBars>}</button>
+          { isMenuon ? <FaXmark className='w-5 h-5 bg-black'></FaXmark> :<FaBars className='w-5 h-5 text-black'></FaBars>}</button>
       </div>
 
     </nav>
     {/* Menu on mobile*/}
     <div>
-    <ul className={`md:hidden gap-12 text-lg block space-y-4 px-4 py-6 mt-14 bg-white ${isMenuon ? 'fixed top-0 left-0 w-full transition-all ease-out duration-150' : 'hidden'}`}>
+    <ul className={`md:hidden gap-12 text-lg block space-y-4 px-4 py-6 mt-14 bg-white z-50 ${isMenuon ? 'fixed top-0 left-0 w-full transition-all ease-out duration-150' : 'hidden'}`}>
         {
-          navItems.map(({path, link}) => <li className='text-black' key={path}>
+          navItems.map(({path, link}) => <li className='text-black hover:underline hover:text-blue-700' key={path}>
             <NavLink className={({ isActive, isPending }) =>
                isPending ? "pending" : isActive ? "active" : ""
               } onClick={toggleMenu} to={path}>{link}</NavLink>

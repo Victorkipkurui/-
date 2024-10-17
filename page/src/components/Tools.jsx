@@ -19,27 +19,30 @@ const Tools = () => {
   });
   return (
     <div>
-      <div ref={ref} className={`${isVisible ? 'animate-slideInUp' : 'opacity-0 translate-y-10'}`}>
-        <div>
-          <h2 className="text-center text-gray-900 text-3xl font-semibold mb-6">Tools I work with</h2>
-        </div>
-        <div className="flex size-16 gap-3 text-center mx-40 my-10">
-          <img src={js} alt="icon" />
-          <img src={react} alt="icon" />
-          <img src={Tailwind} alt="icon" />
-          <img src={node} alt="icon" />
-          <img src={Express} alt="icon" />
-          <img src={mongodb} alt="icon" />
-          <img src={Postgres} alt="icon" />
-          <img src={python} alt="icon" />
-          <img src={pandas} alt="icon" />
-          <img src={Numpy} alt="icon" />
-          <img src={matplotlib} alt="icon" />
-          <img src={django} alt="icon" />
-          <img src={jupyter} alt="icon" />
-          <img src={Selenium} alt="icon" />
-        </div>
-      </div>
+     <div ref={ref} className={`${isVisible ? 'animate-slideInUp' : 'opacity-0 translate-y-10'}`}>
+  <div>
+    <h2 className="text-center text-gray-900 text-2xl md:text-3xl font-semibold mb-6">Tools I work with</h2>
+  </div>
+
+  {/* Responsive Grid Layout for Icons */}
+  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center mx-auto my-10 max-w-screen-lg px-6">
+    <img src={js} alt="JavaScript" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={react} alt="React" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={Tailwind} alt="Tailwind CSS" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={node} alt="Node.js" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={Express} alt="Express.js" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={mongodb} alt="MongoDB" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={Postgres} alt="PostgreSQL" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={python} alt="Python" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={pandas} alt="Pandas" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={Numpy} alt="Numpy" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={matplotlib} alt="Matplotlib" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={django} alt="Django" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={jupyter} alt="Jupyter" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={Selenium} alt="Selenium" className="h-12 w-12 md:h-16 md:w-16" />
+  </div>
+</div>
+
     </div>
   )
 }
