@@ -46,14 +46,12 @@ const Highlights = () => {
 
       <button
         onClick={prevSlide}
-        className="absolute top-1/2 transform -translate-y-1/2 left-4 bg-white bg-opacity-70 hover:bg-opacity-100 rounded-full p-2 shadow-lg"
-      >
+        className="absolute top-1/2 transform -translate-y-1/2 left-4 bg-white bg-opacity-70 hover:bg-opacity-100 rounded-full p-2 shadow-lg">
         ◀
       </button>
       <button
         onClick={nextSlide}
-        className="absolute top-1/2 transform -translate-y-1/2 right-4 bg-white bg-opacity-70 hover:bg-opacity-100 rounded-full p-2 shadow-lg"
-      >
+        className="absolute top-1/2 transform -translate-y-1/2 right-4 bg-white bg-opacity-70 hover:bg-opacity-100 rounded-full p-2 shadow-lg">
         ▶
       </button>
 

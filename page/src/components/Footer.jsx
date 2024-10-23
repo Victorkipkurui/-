@@ -80,7 +80,7 @@ const Footer = () => {
           </form>
         </div>
       </div>
-        <div className="text-center py-5">©2024 Victor Kipkurui. All rights Reserved.</div>
+        <div className="text-center py-5">©{new Date().getFullYear()} Victor Kipkurui. All rights Reserved.</div>
     </div>
   )
 }

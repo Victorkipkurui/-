@@ -12,6 +12,7 @@ import Express from '../assets/images/Express.png'
 import Numpy from '../assets/images/Numpy.png'
 import Selenium from '../assets/images/Selenium.png'
 import Tailwind from '../assets/images/Tailwind CSS.png'
+import Typescript from '../assets/images/typescript.png'
 import UserInteraction from './UserInteraction'
 const Tools = () => {
   const [ref, isVisible] = UserInteraction({
@@ -27,6 +28,7 @@ const Tools = () => {
   {/* Responsive Grid Layout for Icons */}
   <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 justify-items-center mx-auto my-10 max-w-screen-lg px-6">
     <img src={js} alt="JavaScript" className="h-12 w-12 md:h-16 md:w-16" />
+    <img src={Typescript} alt="JavaScript" className="h-12 w-12 md:h-16 md:w-16" />
     <img src={react} alt="React" className="h-12 w-12 md:h-16 md:w-16" />
     <img src={Tailwind} alt="Tailwind CSS" className="h-12 w-12 md:h-16 md:w-16" />
     <img src={node} alt="Node.js" className="h-12 w-12 md:h-16 md:w-16" />
